@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */; };
+		9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */; };
+		9C4EE2922ABC95B5007715E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE2912ABC95B5007715E7 /* Assets.xcassets */; };
+		9C4EE2952ABC95B5007715E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE2942ABC95B5007715E7 /* Preview Assets.xcassets */; };
+		9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE29E2ABCA30D007715E7 /* CalendarDate.swift */; };
+		9C4EE2A22ABCA845007715E7 /* Date+Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2A12ABCA845007715E7 /* Date+Days.swift */; };
+		9C4EE2AB2ABD7DB6007715E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2AA2ABD7DB6007715E7 /* Constants.swift */; };
+		9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2AC2ABD7E07007715E7 /* Text.swift */; };
+		9C4EE2AF2ABD88B0007715E7 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2AE2ABD88B0007715E7 /* CalendarViewModel.swift */; };
+		9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */; };
+		9C4EE2B32ABD8E78007715E7 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2B22ABD8E78007715E7 /* Calendar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C4EE28A2ABC95B3007715E7 /* Calendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaldendlyApp.swift; sourceTree = "<group>"; };
+		9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendarView.swift; sourceTree = "<group>"; };
+		9C4EE2912ABC95B5007715E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4EE2942ABC95B5007715E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C4EE29E2ABCA30D007715E7 /* CalendarDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
+		9C4EE2A12ABCA845007715E7 /* Date+Days.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Days.swift"; sourceTree = "<group>"; };
+		9C4EE2AA2ABD7DB6007715E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C4EE2AC2ABD7E07007715E7 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		9C4EE2AE2ABD88B0007715E7 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		9C4EE2B22ABD8E78007715E7 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4EE2872ABC95B3007715E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4EE2812ABC95B3007715E7 = {
+			isa = PBXGroup;
+			children = (
+				9C4EE28C2ABC95B3007715E7 /* Caldendly */,
+				9C4EE28B2ABC95B3007715E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4EE28B2ABC95B3007715E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE28A2ABC95B3007715E7 /* Calendly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4EE28C2ABC95B3007715E7 /* Caldendly */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2A32ABD7BE7007715E7 /* App */,
+				9C4EE2A42ABD7CAA007715E7 /* Core */,
+				9C4EE2A02ABCA81E007715E7 /* Extensions */,
+				9C4EE29D2ABCA2D8007715E7 /* Model */,
+				9C4EE2A82ABD7D0C007715E7 /* Resources */,
+				9C4EE2A92ABD7DA0007715E7 /* Utils */,
+			);
+			path = Caldendly;
+			sourceTree = "<group>";
+		};
+		9C4EE2932ABC95B5007715E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2942ABC95B5007715E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C4EE29D2ABCA2D8007715E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE29E2ABCA30D007715E7 /* CalendarDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C4EE2A02ABCA81E007715E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2A12ABCA845007715E7 /* Date+Days.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C4EE2A32ABD7BE7007715E7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9C4EE2A42ABD7CAA007715E7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2A52ABD7CCD007715E7 /* Calendar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9C4EE2A52ABD7CCD007715E7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2A62ABD7CDB007715E7 /* Views */,
+				9C4EE2A72ABD7CE2007715E7 /* ViewModels */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		9C4EE2A62ABD7CDB007715E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */,
+				9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */,
+				9C4EE2B22ABD8E78007715E7 /* Calendar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C4EE2A72ABD7CE2007715E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2AE2ABD88B0007715E7 /* CalendarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9C4EE2A82ABD7D0C007715E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2912ABC95B5007715E7 /* Assets.xcassets */,
+				9C4EE2932ABC95B5007715E7 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C4EE2A92ABD7DA0007715E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EE2AA2ABD7DB6007715E7 /* Constants.swift */,
+				9C4EE2AC2ABD7E07007715E7 /* Text.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4EE2892ABC95B3007715E7 /* Calendly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4EE2982ABC95B5007715E7 /* Build configuration list for PBXNativeTarget "Calendly" */;
+			buildPhases = (
+				9C4EE2862ABC95B3007715E7 /* Sources */,
+				9C4EE2872ABC95B3007715E7 /* Frameworks */,
+				9C4EE2882ABC95B3007715E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendly;
+			productName = Caldendly;
+			productReference = 9C4EE28A2ABC95B3007715E7 /* Calendly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4EE2822ABC95B3007715E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9C4EE2892ABC95B3007715E7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9C4EE2852ABC95B3007715E7 /* Build configuration list for PBXProject "Calendly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4EE2812ABC95B3007715E7;
+			productRefGroup = 9C4EE28B2ABC95B3007715E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4EE2892ABC95B3007715E7 /* Calendly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4EE2882ABC95B3007715E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4EE2952ABC95B5007715E7 /* Preview Assets.xcassets in Resources */,
+				9C4EE2922ABC95B5007715E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4EE2862ABC95B3007715E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4EE2AB2ABD7DB6007715E7 /* Constants.swift in Sources */,
+				9C4EE2B32ABD8E78007715E7 /* Calendar.swift in Sources */,
+				9C4EE2A22ABCA845007715E7 /* Date+Days.swift in Sources */,
+				9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */,
+				9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */,
+				9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */,
+				9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */,
+				9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */,
+				9C4EE2AF2ABD88B0007715E7 /* CalendarViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C4EE2962ABC95B5007715E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Calendly;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C4EE2972ABC95B5007715E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Calendly;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4EE2992ABC95B5007715E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caldendly/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = NV786K8W94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kutelov.Caldendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C4EE29A2ABC95B5007715E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caldendly/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = NV786K8W94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kutelov.Caldendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4EE2852ABC95B3007715E7 /* Build configuration list for PBXProject "Calendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4EE2962ABC95B5007715E7 /* Debug */,
+				9C4EE2972ABC95B5007715E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4EE2982ABC95B5007715E7 /* Build configuration list for PBXNativeTarget "Calendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4EE2992ABC95B5007715E7 /* Debug */,
+				9C4EE29A2ABC95B5007715E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4EE2822ABC95B3007715E7 /* Project object */;
+}
