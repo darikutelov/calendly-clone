@@ -25,10 +25,16 @@ extension Date {
         return dates
     }
     
-    
     func monthAndYearString() -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MMMM YYYY"
+        
+        return formatter.string(from: self)
+    }
+    
+    func dateToString() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM/dd/yyyy"
         
         return formatter.string(from: self)
     }

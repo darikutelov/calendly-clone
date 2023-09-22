@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */; };
 		9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */; };
 		9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */; };
 		9C4EE2922ABC95B5007715E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE2912ABC95B5007715E7 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMonthButton.swift; sourceTree = "<group>"; };
 		9C4EE28A2ABC95B3007715E7 /* Calendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaldendlyApp.swift; sourceTree = "<group>"; };
 		9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendarView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */,
 				9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */,
 				9C4EE2B22ABD8E78007715E7 /* Calendar.swift */,
+				9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				9C4EE2B32ABD8E78007715E7 /* Calendar.swift in Sources */,
 				9C4EE2A22ABCA845007715E7 /* Date+Days.swift in Sources */,
 				9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */,
+				9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */,
 				9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */,
 				9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */,
 				9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */,
