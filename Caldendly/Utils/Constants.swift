@@ -6,12 +6,24 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Constants {
     static let weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    static let dayHours = [
+        Date(),
+        Calendar.current.date(byAdding: .hour, value: 1, to: Date())!,
+        Calendar.current.date(byAdding: .hour, value: 2, to: Date())!,
+        Calendar.current.date(byAdding: .hour, value: 3, to: Date())!,
+        Calendar.current.date(byAdding: .hour, value: 4, to: Date())!
+    ]
     
-    struct iconNames {
+    struct IconNames {
         static let lessThan = "lessthan"
         static let greaterThan = "greaterthan"
+    }
+    
+    struct Colors {
+        static let primary = Color.indigo
     }
 }

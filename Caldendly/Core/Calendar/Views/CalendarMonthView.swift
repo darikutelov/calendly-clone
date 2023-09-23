@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CalendarView: View {
+struct CalendarMonthView: View {
     @StateObject var viewModel = CalendarViewModel()
     
     var body: some View {
@@ -19,7 +19,7 @@ struct CalendarView: View {
                     Grid(horizontalSpacing: 48) {
                         GridRow {
                             ChangeMonthButton(
-                                iconName: Constants.iconNames.lessThan,
+                                iconName: Constants.IconNames.lessThan,
                                 toMonth: .prev,
                                 selectedMonth: $viewModel.selectedMonth
                             )
@@ -28,7 +28,7 @@ struct CalendarView: View {
                                 .font(.title2)
                             
                             ChangeMonthButton(
-                                iconName: Constants.iconNames.greaterThan,
+                                iconName: Constants.IconNames.greaterThan,
                                 toMonth: .next,
                                 selectedMonth: $viewModel.selectedMonth
                             )
@@ -54,7 +54,7 @@ struct CalendarView: View {
                        ZStack {
                            if value.day != -1 {
                                NavigationLink {
-                                   DateView()
+                                   CalendarDayView()
                                } label: {
                                    CalendarDay(date: value)
                                }
@@ -75,5 +75,5 @@ struct CalendarView: View {
 }
 
 #Preview {
-    CalendarView()
+    CalendarMonthView()
 }

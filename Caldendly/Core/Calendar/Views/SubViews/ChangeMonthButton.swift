@@ -44,7 +44,7 @@ struct ChangeMonthButton: View {
 
 #Preview {
     ChangeMonthButton(
-        iconName: Constants.iconNames.lessThan,
+        iconName: Constants.IconNames.lessThan,
         toMonth: .next,
         selectedMonth: .constant(0)
     )
