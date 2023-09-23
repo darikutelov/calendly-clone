@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */; };
+		9C0BC5572ABEF82D00BF3134 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5562ABEF82D00BF3134 /* CalendarDay.swift */; };
+		9C0BC5592ABEFA6400BF3134 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5582ABEFA6400BF3134 /* DateView.swift */; };
 		9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */; };
 		9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */; };
 		9C4EE2922ABC95B5007715E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4EE2912ABC95B5007715E7 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMonthButton.swift; sourceTree = "<group>"; };
+		9C0BC5562ABEF82D00BF3134 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		9C0BC5582ABEFA6400BF3134 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		9C4EE28A2ABC95B3007715E7 /* Calendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4EE28D2ABC95B3007715E7 /* CaldendlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaldendlyApp.swift; sourceTree = "<group>"; };
 		9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCalendarView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C0BC5552ABEF7F700BF3134 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */,
+				9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */,
+				9C4EE2B22ABD8E78007715E7 /* Calendar.swift */,
+				9C0BC5562ABEF82D00BF3134 /* CalendarDay.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		9C4EE2812ABC95B3007715E7 = {
 			isa = PBXGroup;
 			children = (
@@ -129,10 +144,9 @@
 		9C4EE2A62ABD7CDB007715E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9C0BC5552ABEF7F700BF3134 /* SubViews */,
 				9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */,
-				9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */,
-				9C4EE2B22ABD8E78007715E7 /* Calendar.swift */,
-				9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */,
+				9C0BC5582ABEFA6400BF3134 /* DateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +253,8 @@
 				9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */,
 				9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */,
 				9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */,
+				9C0BC5592ABEFA6400BF3134 /* DateView.swift in Sources */,
+				9C0BC5572ABEF82D00BF3134 /* CalendarDay.swift in Sources */,
 				9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */,
 				9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */,
 				9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */,

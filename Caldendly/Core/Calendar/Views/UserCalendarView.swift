@@ -10,22 +10,22 @@ import SwiftUI
 struct UserCalendarView: View {
     
     var body: some View {
-        ZStack {
-            Color(UIColor.secondarySystemBackground)
-                .ignoresSafeArea()
-            
-            VStack {
-                UserProfileHeader()
+        NavigationStack {
+            ZStack {
+                Color(UIColor.secondarySystemBackground)
+                    .ignoresSafeArea()
                 
-                Divider()
-                
-                CalendarView()
+                VStack {
+                    UserProfileHeader()
+                    
+                    Divider()
+                    
+                    CalendarView()
+                }
+                .padding()
             }
-            .padding()
         }
     }
-    
-   
 }
 
 #Preview {
