@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0B33782ABF449A004151AC /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B33772ABF449A004151AC /* UIColor+Ext.swift */; };
+		9C0B337A2ABF48AA004151AC /* CalendarWeeklyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0B33792ABF48AA004151AC /* CalendarWeeklyView.swift */; };
 		9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */; };
 		9C0BC5572ABEF82D00BF3134 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5562ABEF82D00BF3134 /* CalendarDay.swift */; };
 		9C0BC5592ABEFA6400BF3134 /* CalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BC5582ABEFA6400BF3134 /* CalendarDayView.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C0B33772ABF449A004151AC /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		9C0B33792ABF48AA004151AC /* CalendarWeeklyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeeklyView.swift; sourceTree = "<group>"; };
 		9C0BC5532ABDEBD200BF3134 /* ChangeMonthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMonthButton.swift; sourceTree = "<group>"; };
 		9C0BC5562ABEF82D00BF3134 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		9C0BC5582ABEFA6400BF3134 /* CalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				9C4EE2A12ABCA845007715E7 /* Date+Ext.swift */,
+				9C0B33772ABF449A004151AC /* UIColor+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			children = (
 				9C0BC5552ABEF7F700BF3134 /* SubViews */,
 				9C4EE28F2ABC95B3007715E7 /* UserCalendarView.swift */,
+				9C0B33792ABF48AA004151AC /* CalendarWeeklyView.swift */,
 				9C4EE2B22ABD8E78007715E7 /* CalendarMonthView.swift */,
 				9C0BC5582ABEFA6400BF3134 /* CalendarDayView.swift */,
 			);
@@ -253,8 +259,10 @@
 				9C4EE2902ABC95B3007715E7 /* UserCalendarView.swift in Sources */,
 				9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */,
 				9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */,
+				9C0B33782ABF449A004151AC /* UIColor+Ext.swift in Sources */,
 				9C0BC5592ABEFA6400BF3134 /* CalendarDayView.swift in Sources */,
 				9C0BC5572ABEF82D00BF3134 /* CalendarDay.swift in Sources */,
+				9C0B337A2ABF48AA004151AC /* CalendarWeeklyView.swift in Sources */,
 				9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */,
 				9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */,
 				9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */,

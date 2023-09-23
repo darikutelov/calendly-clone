@@ -12,10 +12,6 @@ struct CalendarMonthView: View {
     
     var body: some View {
             VStack(spacing: 20) {
-                    Text(Constants.selectADayText)
-                        .font(.title2)
-                        .bold()
-                    
                     Grid(horizontalSpacing: 48) {
                         GridRow {
                             ChangeMonthButton(
