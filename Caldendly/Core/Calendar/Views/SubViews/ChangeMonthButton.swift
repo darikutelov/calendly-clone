@@ -30,12 +30,12 @@ struct ChangeMonthButton: View {
             Image(systemName: iconName)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 12, height: 12)
-                .foregroundColor(.blue)
+                .frame(width: 16, height: 16)
+                .foregroundColor(Constants.Colors.secondary)
                 .background {
                     Circle()
+                        .fill(Constants.Colors.secondary.opacity(0.3))
                         .frame(width: 48, height: 48)
-                        .foregroundColor(.blue.opacity(0.1))
                 }
             
         }

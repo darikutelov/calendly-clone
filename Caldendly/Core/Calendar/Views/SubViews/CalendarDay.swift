@@ -12,18 +12,18 @@ struct CalendarDay: View {
     
     var body: some View {
         Text("\(date.day)")
-            .foregroundColor(date.day % 2 != 0 ? .blue : .black)
+            .foregroundColor(date.day % 2 != 0 ? .black : Constants.Colors.secondaryLabel)
             .fontWeight(date.day % 2 != 0 ? .bold : .none)
             .background {
                 ZStack(alignment: .bottom) {
                     Circle()
                         .frame(width: 48, height: 48)
-                        .foregroundColor(date.day % 2 != 0 ? .blue.opacity(0.1) : .clear)
+                        .foregroundColor(date.day % 2 != 0 ? Constants.Colors.primary.opacity(0.1) : .clear)
                     
                     if date.date.dateToString() == Date().dateToString() {
                         Circle()
                             .frame(width: 8, height: 8)
-                            .foregroundColor(date.day % 2 != 0 ? .blue : .gray)
+                            .foregroundColor(date.day % 2 != 0 ? Constants.Colors.primary : .gray)
                     }
                 }
             }    }

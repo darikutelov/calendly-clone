@@ -23,6 +23,10 @@
 		9C4EE2AF2ABD88B0007715E7 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2AE2ABD88B0007715E7 /* CalendarViewModel.swift */; };
 		9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */; };
 		9C4EE2B32ABD8E78007715E7 /* CalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4EE2B22ABD8E78007715E7 /* CalendarMonthView.swift */; };
+		9C7A7FD42AC03B75004D411D /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A7FD32AC03B75004D411D /* BookingView.swift */; };
+		9C7A7FD72AC08D73004D411D /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A7FD62AC08D73004D411D /* TextInput.swift */; };
+		9C7A7FDA2AC09457004D411D /* AppButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A7FD92AC09457004D411D /* AppButtonStyle.swift */; };
+		9C7A7FDC2AC09A4F004D411D /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A7FDB2AC09A4F004D411D /* ConfirmationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		9C4EE2AE2ABD88B0007715E7 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		9C4EE2B02ABD8A1D007715E7 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		9C4EE2B22ABD8E78007715E7 /* CalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthView.swift; sourceTree = "<group>"; };
+		9C7A7FD32AC03B75004D411D /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		9C7A7FD62AC08D73004D411D /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		9C7A7FD92AC09457004D411D /* AppButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonStyle.swift; sourceTree = "<group>"; };
+		9C7A7FDB2AC09A4F004D411D /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +147,8 @@
 		9C4EE2A52ABD7CCD007715E7 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				9C7A7FD82AC09448004D411D /* Styles */,
+				9C7A7FD52AC08D4F004D411D /* Modifiers */,
 				9C4EE2A62ABD7CDB007715E7 /* Views */,
 				9C4EE2A72ABD7CE2007715E7 /* ViewModels */,
 			);
@@ -153,6 +163,8 @@
 				9C0B33792ABF48AA004151AC /* CalendarWeeklyView.swift */,
 				9C4EE2B22ABD8E78007715E7 /* CalendarMonthView.swift */,
 				9C0BC5582ABEFA6400BF3134 /* CalendarDayView.swift */,
+				9C7A7FD32AC03B75004D411D /* BookingView.swift */,
+				9C7A7FDB2AC09A4F004D411D /* ConfirmationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +193,22 @@
 				9C4EE2AC2ABD7E07007715E7 /* Text.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9C7A7FD52AC08D4F004D411D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A7FD62AC08D73004D411D /* TextInput.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		9C7A7FD82AC09448004D411D /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A7FD92AC09457004D411D /* AppButtonStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,13 +288,17 @@
 				9C0BC5542ABDEBD200BF3134 /* ChangeMonthButton.swift in Sources */,
 				9C4EE29F2ABCA30D007715E7 /* CalendarDate.swift in Sources */,
 				9C0B33782ABF449A004151AC /* UIColor+Ext.swift in Sources */,
+				9C7A7FDC2AC09A4F004D411D /* ConfirmationView.swift in Sources */,
+				9C7A7FDA2AC09457004D411D /* AppButtonStyle.swift in Sources */,
 				9C0BC5592ABEFA6400BF3134 /* CalendarDayView.swift in Sources */,
 				9C0BC5572ABEF82D00BF3134 /* CalendarDay.swift in Sources */,
+				9C7A7FD42AC03B75004D411D /* BookingView.swift in Sources */,
 				9C0B337A2ABF48AA004151AC /* CalendarWeeklyView.swift in Sources */,
 				9C4EE2B12ABD8A1D007715E7 /* UserProfileHeader.swift in Sources */,
 				9C4EE2AD2ABD7E07007715E7 /* Text.swift in Sources */,
 				9C4EE28E2ABC95B3007715E7 /* CaldendlyApp.swift in Sources */,
 				9C4EE2AF2ABD88B0007715E7 /* CalendarViewModel.swift in Sources */,
+				9C7A7FD72AC08D73004D411D /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

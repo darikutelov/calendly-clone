@@ -25,6 +25,8 @@ struct Constants {
     
     struct Colors {
         static let primary = Color.indigo
-        static let secondary = Color(UIColor(hexString: "#D74E09"))
+        static let secondary = Color(UIColor(hexString: "#84A07C")) //#D74E09
+        static let terciary = Color(UIColor(hexString: "#F2BB05"))
+        static let secondaryLabel = Color(UIColor(hexString: "#3C3C43"))
     }
 }

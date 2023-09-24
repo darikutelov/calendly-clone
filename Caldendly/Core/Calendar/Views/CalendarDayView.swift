@@ -24,8 +24,12 @@ struct CalendarDayView: View {
                     .font(.title)
                     .bold()
                 
-                Text("Duration: \(timeSlotDuration)")
-                    .padding(.bottom)
+                HStack {
+                    Text("Duration:")
+                    Text("\(timeSlotDuration)")
+                        .foregroundStyle(.gray)
+                }
+                .padding(.bottom)
                 
                 ForEach(dates, id: \.self) { timeSlot in
                     HStack {
@@ -41,7 +45,7 @@ struct CalendarDayView: View {
                             Text(timeSlot.timeFromDate())
                                 .bold()
                                 .padding()
-                                .foregroundColor(selectedTimeSlot == timeSlot ? .white : Constants.Colors.primary)
+                                .foregroundColor(selectedTimeSlot == timeSlot ? .white : .black.opacity(0.8))
                                 .frame(maxWidth: .infinity)
                                 .background(
                                     ZStack {
@@ -58,7 +62,7 @@ struct CalendarDayView: View {
                         
                         if selectedTimeSlot == timeSlot {
                             NavigationLink {
-                                EmptyView()
+                                BookingView()
                             } label: {
                                 Text("Next")
                                     .bold()
