@@ -20,7 +20,7 @@ struct CalendarDay: View {
                         .frame(width: 48, height: 48)
                         .foregroundColor(date.day % 2 != 0 ? Constants.Colors.primary.opacity(0.1) : .clear)
                     
-                    if date.date.dateToString() == Date().dateToString() {
+                    if date.date.dateToStringFormat() == Date().dateToStringFormat() {
                         Circle()
                             .frame(width: 8, height: 8)
                             .foregroundColor(date.day % 2 != 0 ? Constants.Colors.primary : .gray)

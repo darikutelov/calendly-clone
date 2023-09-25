@@ -11,11 +11,12 @@ struct CalendarDayView: View {
     @State var dates = Constants.dayHours
     @State var timeSlotDuration = 30
     @State var selectedTimeSlot: Date?
+    var currentDate: Date
     
     var body: some View {
         ScrollView {
             VStack {
-                Text("September 24")
+                Text(currentDate.toFullDateFormat())
                 
                 Divider()
                     .padding(.vertical)
@@ -42,7 +43,7 @@ struct CalendarDayView: View {
                                 }
                             }
                         } label: {
-                            Text(timeSlot.timeFromDate())
+                            Text(timeSlot.timeFromDateFormat())
                                 .bold()
                                 .padding()
                                 .foregroundColor(selectedTimeSlot == timeSlot ? .white : .black.opacity(0.8))
@@ -62,7 +63,7 @@ struct CalendarDayView: View {
                         
                         if selectedTimeSlot == timeSlot {
                             NavigationLink {
-                                BookingView()
+                                BookingView(currentDate: currentDate)
                             } label: {
                                 Text("Next")
                                     .bold()
@@ -80,13 +81,13 @@ struct CalendarDayView: View {
             }
             .padding()
         }
-        .navigationTitle("Saturday")
+        .navigationTitle(currentDate.dayOfTheWeek())
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
     NavigationStack {
-        CalendarDayView()
+        CalendarDayView(currentDate: Date())
     }
 }

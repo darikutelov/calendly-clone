@@ -50,7 +50,7 @@ struct CalendarMonthView: View {
                        ZStack {
                            if value.day != -1 {
                                NavigationLink {
-                                   CalendarDayView()
+                                   CalendarDayView(currentDate: value.date)
                                } label: {
                                    CalendarDay(date: value)
                                }

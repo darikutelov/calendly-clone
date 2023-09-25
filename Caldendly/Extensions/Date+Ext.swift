@@ -25,6 +25,7 @@ extension Date {
         return dates
     }
     
+    /// Returns date as September, 2023
     func monthAndYearString() -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MMMM YYYY"
@@ -32,17 +33,54 @@ extension Date {
         return formatter.string(from: self)
     }
     
-    func dateToString() -> String {
+    /// Returns date as 09/22/2023
+    func dateToStringFormat() -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MM/dd/yyyy"
         
         return formatter.string(from: self)
     }
+
+    /// Returns  date as September 9, 2023
+    func toFullDateFormat() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMMM d, yyyy"
+        
+        return formatter.string(from: self)
+    }
     
-    func timeFromDate() -> String {
+    /// Returns date as 14:00 AM
+    func timeFromDateFormat() -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "hh:mm a"
         
         return formatter.string(from: self)
+    }
+    
+    // Retunrs date as Monday
+    func dayOfTheWeek() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE"
+        
+        return formatter.string(from: self)
+    }
+    
+    // Retunrs date as 10:00AM - 11:00AM, Monday, September 12, 2023
+    func toHoursWeekDayFullDate(meetingDuration: Int) -> String {
+        let timeFormatter = DateFormatter()
+        timeFormatter.dateFormat = "hh:mm a"
+        let startTimeFormatted = timeFormatter.string(from: self)
+        
+        let endTime = Calendar.current.date(
+            byAdding: .minute,
+            value: meetingDuration,
+            to: self
+        )!
+        let endTimeFormatted = timeFormatter.string(from: endTime)
+        
+        let dayFormatted = self.dayOfTheWeek()
+        let dateFormatted = self.toFullDateFormat()
+        
+        return "\(startTimeFormatted) - \(endTimeFormatted), \(dayFormatted), \(dateFormatted)"
     }
 }
